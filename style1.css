@@ -1,0 +1,131 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+  background-image: url(torontosky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ul
+{
+  list-style-type:none;
+}
+ul li
+{
+  width: 100px;
+  height: 30px;
+  float: right;
+  display:inline-block;
+  margin-right:10px;
+  /* margin-top: 20px; */
+  background-color: green;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+ }
+ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  }
+
+.C
+{
+  width: 500px;
+  height: 50px;
+  float: right;
+  /* border-bottom: 2px solid white; */
+}
+.D
+{
+  width: 1520px;
+  
+  background-color: #1D2731;
+  opacity: 0.8;
+  /* border: 2px solid white; */
+
+  margin-top: 100px;
+  /* float: left; */
+}
+h1
+{
+  padding-top: 30px;
+  padding-left: 240px;
+  color: white;
+
+}
+pre
+{
+  padding-top: 30px;
+  color: #D98310;
+  padding-left: 170px;
+
+
+}
+button{
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  width: 170px;
+  height: 50px;
+  border: none;
+  margin-left: 500px;
+  border-radius:80px;
+}
+.R
+{
+  width: 1520px;
+  height: 340px;
+  background-color: #1D2731;
+  opacity: 0.8;
+ margin-top: 760px;
+ padding-left: 80px;
+}
+.Z
+{
+  width: 400px;
+  height: 260px;
+display: inline-block;
+margin: 20px;
+border-radius: 50px;
+float: left;
+}
+img{
+  width: 100px;
+  height: 100px;
+  margin-left: 150px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: 4px solid black;
+  background-color: white;
+}
+h2{
+  color: white;
+  font-family:  serif;
+}
+p{
+  color: white;
+  font-family: sans-serif;
+}
+.Z1
+{
+  width: 250px;
+  height: 100px;
+display: inline-block;
+margin: 20px;
+border-radius: 50px;
+float: left;
+}
+.R1
+{
+  width: 1520px;
+  height: 180px;
+  background-color: #1D2731;
+  opacity: 0.8;
+ margin-top: 160px;
+ padding-left: 120px;
+}

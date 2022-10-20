@@ -1,0 +1,80 @@
+.C
+{
+ margin-top: 140px;
+margin-left: 500px;
+  height: 400px;
+  width: 550px;
+  text-align: center;
+
+}
+ .D
+{
+   height: 300px;
+  width: 400px;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 20px;
+  float:left;
+}
+body{
+  width: 1280px;
+  height: 720px;
+  background: url(back_sign.jpg);
+ opacity: 0.8;
+ /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+input[type="text"]
+{
+  height: 40px;
+  width: 280px;
+  border-bottom: 1px solid grey;
+padding-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+     font-size: 20px;
+     border-radius: 15px;
+}
+input[type="password"]
+{
+  height: 40px;
+  width: 280px;
+padding-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  border-radius: 15px;
+
+}
+input[type="email"]
+{
+  height: 40px;
+  width: 280px;
+padding-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;;
+  font-size: 20px;
+  border-radius: 15px;
+}
+input[type="submit"]
+{
+  height: 40px;
+  width: 130px;
+  background-color: red;
+  color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border:none;
+}
+h1
+{
+
+padding-top: 30px; color: red;
+}

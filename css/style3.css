@@ -1,0 +1,61 @@
+.E
+{
+  width: 400px;
+  height: 400px;
+  text-align: center;
+    margin-left: 600px;
+  margin-top: 200px;
+}
+body{
+  background-image: url(back_login.jpg);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+input[type="text"]
+{
+  height: 40px;
+  width: 280px;
+  border-bottom: 1px solid grey;
+padding-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+     font-size: 20px;
+     border-radius: 15px;
+}
+input[type="password"]
+{
+  height: 40px;
+  width: 280px;
+padding-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  border-radius: 15px;
+
+}
+input[type="checkbox"]
+{
+  height: 20px;
+  width: 40px;
+  /* position: relative; */
+}
+input[type="submit"]
+{
+  height: 40px;
+  width: 130px;
+  background-color: red;
+  color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border:none;
+}
+h1
+{
+  padding-top: 60px;
+  color: black;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+      <link rel="stylesheet" href="style2.css">
+
+      <script>
+      function validateform(){
+      var uname=document.myform.uname.value;
+      var password=document.myform.pswd.value.length;
+      var cpassword=document.myform.cpswd.value;
+      var email=document.myform.email.value;
+
+      if (uname== "")
+      {
+        window.alert("Username cannot be left blank.");
+        uname.focus();
+        return false;
+      }
+      if (email== "")
+      {
+        window.alert("E-mail address  cannot be left blank..");
+        email.focus();
+        return false;
+      }
+
+      if (email.indexOf("@", 0) < 0)
+      {
+        window.alert("Missing @ in e-mail address.");
+        email.focus();
+        return false;
+      }
+
+      if (email.indexOf(".", 0) < 0)
+      {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+      }
+      if (password<6)
+      {
+        window.alert("Password  cannot be left blank and size should be >6.");
+        password.focus();
+        return false;
+      }
+      if (!cpassword.isequal(password))
+      {
+        window.alert("Please enter correct password");
+        password.focus();
+        return false;
+        break;
+
+      }
+
+      return true;
+      }
+      </script>
+
+      </head>
+  <body>
+    <div class="C">
+      <form name="myform" style="margin-left:130px;" method="post" action="signup_db.php"  onsubmit="return validateform()" >
+            <h1>Sign In</h1>
+    <input type="email" name="email" placeholder="Email" required><br><br>
+      <input type="text" name="uname" placeholder="Username" required><br><br>
+    <input type="password" name="pswd" placeholder="Password" required ><br><br>
+    <input type="password" name="cpswd" placeholder="Confirm Password" required ><br><br>
+    <input type="submit" name="SignInButton" value="Sign Up" onclick="validateform()">
+  </form>
+    </div>
+
+
+  </body>
+</html>

@@ -11,7 +11,7 @@ $name=$_SESSION['user_name'];
    else
    {
 
-     $q="CREATE TABLE $name (
+     $q="CREATE TABLE if not exists $name (
       ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
       FirstName varchar(255) NOT NULL,
       LastName varchar(255),
